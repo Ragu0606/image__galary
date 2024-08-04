@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalnia+Glaze&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans Condensed", sans-serif;
+    
+}
+body{
+    background-color: black;
+    overflow-x: hidden; 
+}
+
+/* __-------------------------------------------___ */
+
+.galary__title{
+    background-color:  rgb(106, 0, 255);
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* __-------------------------------------------___ */
+
+
+.galary__nav{
+
+    margin: 30px;
+    
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    border: 2px solid rgb(106, 0, 255);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+  
+
+}
+a::after{
+    color: aliceblue;
+}
+a:hover{
+    background-color:rgb(0, 4, 5);
+    color: rgb(196, 213, 228);
+    cursor: pointer;
+    border-color: white;
+}
+
+
+.galary__image--container{
+    background-image: url(./images/demons__slayers.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.galary__image--box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(18, 9, 6, 0.745); 
+}
+.galary__images{
+    display: flex;
+    margin: 5px;
+    flex-basis:20%; 
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.galary__images img{
+    height: 250px;
+    width: 200px;
+    background-color: rgba(213, 229, 255, 0.479);
+    border:2px solid black;
+    border-radius: 10px;
+   
+}
+
+.galary__images img:hover{
+    opacity: .8;
+    background-color: beige;
+    transition: o.5s;
+    
+}
+
+.galary__footer{
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.galary__images--you{
+    color: white;
+    margin: 10px;
+    flex-basis: 40%;
+    flex-grow: 1;
+
+   
+}
+
+.search__galary{
+    margin: 20px;
+    border: 2px solid white ;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;  
+}
+.search__galary:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(106, 0, 255);
+    border: 2px solid rgba(255, 255, 255, 0.868);
+    opacity: 0.6;
+    transition: o.5s;
+    cursor: pointer;
+}
+.galary__footer--design{
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+}
